@@ -1,10 +1,14 @@
+
+//  Nombre y apellido: Santiago Morel
+
 #include <stdio.h>
 #include <ctype.h>
 
 int main()
 {
-    int c;    
-    while ((c = getchar()) != EOF)
+    int c;
+    printf("Ingrese una palabra: \n");    
+    while ((c = getchar()) != '\n')
     {
         if (isupper(c)) // COMPRUEBA SI EL CARACTER ESTA EN MAYÚSCULAS
         {
