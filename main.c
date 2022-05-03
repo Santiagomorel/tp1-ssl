@@ -6,7 +6,7 @@
 
 int main()
 {
-    int c;
+    char c;
     printf("Ingrese una palabra: \n");    
     while ((c = getchar()) != '\n')
     {
