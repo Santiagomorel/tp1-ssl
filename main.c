@@ -22,6 +22,10 @@ int main()
         {
             putchar(c); // COLOCA EL DIGITO COMO ESTA
         }
+        if (isspace(c)) // COMPRUEBA SI EL CARACTER ES UN ESPACIO
+        {
+            putchar(c); // COLOCA EL DIGITO  COMO ESTA
+        }
     }
     return 0;
 }
